@@ -8,14 +8,14 @@ For that matter, we are going to need digital representation or Data Structures 
 
  - **Board** class to represent the game board: our class **Board** will hold all the details about our board game: **width** and **height**; makes up the foundation or pixel frame we will use to define and track the position of our cells. To define such a Data structure, we’re going to use a 2D array to store all the cell boxes e.g.
 
-    [[[0, 0, 0, 0, 0, 0, 0, 0],<br>
+     [0, 0, 0, 0, 0, 0, 0, 0],<br>
      [0, 0, 0, 0, 0, 0, 0, 0],<br>
      [0, 0, 0, 1, 1, 1, 0, 0],<br>
      [0, 0, 0, 0, 0, 0, 0, 0],<br>
      [0, 0, 0, 0, 0, 0, 0, 0],<br>
      [0, 0, 0, 0, 0, 0, 0, 0],<br>
      [0, 0, 0, 0, 0, 0, 0, 0],<br>
-     [0, 0, 0, 0, 0, 0, 0, 0]]]
+     [0, 0, 0, 0, 0, 0, 0, 0]
 
 would represent the board as an 8 × 8 grid with 3 live cells.
 
