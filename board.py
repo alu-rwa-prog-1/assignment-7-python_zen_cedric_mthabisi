@@ -27,7 +27,7 @@ class Board:
         pass
 
     def clean(self):
-        # Iterate over the 2D array of the board, and bring all the values to zero for every
+        # Iterate over the 2D array of the board, and set all the values to zero for every
         # single cell on the board
         pass
 
