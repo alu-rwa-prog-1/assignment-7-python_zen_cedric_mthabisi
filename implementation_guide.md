@@ -1,3 +1,7 @@
+# Game of Life: Implementation Guide
+_Author: Cedric Murairi_ <br>
+_Email: murairicedric@gmail.com_ <br>
+
 Welcome to the technical guide of the incredible **Conway’s Game of Life**. Here we will go through the description of different classes we need to implement our project and discuss the relationship between them.
 
 Since **Conway’s Game of Life** is a 2 dimensional game, we will be working with a **2D** board as our game field which is divided into cells making up the entire grid of pixels. Each box(cell) has two possible states, **live** or **dead**;
