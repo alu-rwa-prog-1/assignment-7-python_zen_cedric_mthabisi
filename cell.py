@@ -32,5 +32,13 @@ Cell
 
 # Tests
 
-# Test Number | Test Type |  Test Data  |   Reason    | Expected Outcome | Actual Outcome | Pass/Fail
-#     1          Valid     status=dead    set_dead method
+# Test# | Test Type |   Test Data  |             Reason             |   Expected Outcome    |
+#  1    |   Valid   |  status=dead | Apply set_dead method to cell  |  Calling is_alive     |
+#       |           |              |  to see if it remains dead     |  method returns False |
+#  2    |   Valid   | status=alive | Apply set_dead method to cell  |  Calling is_alive     |
+#       |           |              |  to see if it becomes dead     |  method returns False |
+#  3    |   Valid   | status=alive | Apply set_alive method to cell |  Calling is_alive     |
+#       |           |              |  to see if it remains alive    |  method return True   |
+#  4    |   Valid   | status=alive | Apply set_alive method to cell |  Calling is_alive     |
+#       |           |              |  to see if it becomes alive    |  method return True   |
+#  5    |  Invalid  | status=null  | Check if status=alive          |  Returns False        |
