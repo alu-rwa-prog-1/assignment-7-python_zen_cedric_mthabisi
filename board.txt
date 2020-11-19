@@ -1,0 +1,49 @@
+"""
+Authors: Cedric Murairi & Mthabisi Ndlovu
+
+This program describes the Cell class.
+
+Cell
+-> Instance Variables
+    - width
+    - height
+    - color
+
+-> Methods
+    - create_cells
+    - clean
+"""
+
+# define Board class
+# initialize board
+# set width to some amount
+# set height to some amount
+# set color to black, default color of board
+
+# create_cells
+# create cells from the cell class
+# place cells on the board to display with initial color black
+
+# clean
+# clean the board and remove all the active cells
+# set board color back to black with dead cells
+
+# size
+# return tuple of dimensions (400, 400)
+
+# cells
+# return the number of cells with have on the grid
+
+# Tests
+
+# Test# | Test Type |   Test Data      |             Reason                  |   Expected Outcome    |
+#  1    |   Valid   | size=(400,400)   | Clean the board and check if all    | Calling size returns  |
+#       |           |                  | the cells(pixels) are black(default)| a tuple (400,400)     |
+#  2    |   Valid   | cell_status=dead | Clean the board and check if all    |  Calling is_alive     |
+#       |           |                  | the cells are in the dead state     |  method returns False |
+#  3    |   Valid   | cells=4000       |Check if the number of cells of 40px |  Calling cells method |
+#       |           |                  | resolution on a 400x400 = 4000      |  returns 4000         |
+#  4    |   Invalid | cells=3500       |Check if the number of cells of 40px |  Calling cells method |
+#       |           |                  |  resolution on a 400x400 = 4000     |  returns 4000         |
+#  5    |  Invalid  | size=(200,200)   | Check if size is (400,400)          |  Calling size returns |
+        |           |                  |                                     |   a tuple (400,400)   |
