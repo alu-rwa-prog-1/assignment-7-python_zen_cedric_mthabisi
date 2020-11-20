@@ -20,7 +20,7 @@ SpaceshipBoard
 # set height to some amount
 # set color to black, default color of board
 
-# change_spaceship (methode)
+# change_spaceship (method)
 # generate a random cell setup to accomodate a different spaceship
 # calls create cells to create new cells for the new type of spaceship
 
