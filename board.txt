@@ -1,9 +1,9 @@
 """
 Authors: Cedric Murairi & Mthabisi Ndlovu
 
-This program describes the Cell class.
+This program describes the Board class.
 
-Cell
+Board
 -> Instance Variables
     - width
     - height
