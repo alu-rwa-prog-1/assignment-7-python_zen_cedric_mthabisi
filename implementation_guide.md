@@ -23,6 +23,9 @@ For that matter, we are going to need digital representation or Data Structures 
 
 would represent the board as an 8 × 8 grid with 3 live cells.
 
+- **SpaceshipBoard** class which will inherit from the main **Board** class and will play a role in generating initial cells to play as *Heavy Weight Spaceship*
+in our game. It will inherits most of it's methods from the parent class and will just have a single one:
+
  - **Cell** class to represent the cells on the board: our second class **Cell** includes all the details and properties of the cells on the board: **coordinates**(location on the board), **status**(live or dead), **resolution**(how many pixels a cell box occupies on the grid)
 
 This game is a zero player game, that is why there is not such a class representation of the player, once you launch the game the different cells will directly start the reproduction process.
